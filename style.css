@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Hero Section */
+.hero {
+    background: #f0f8ff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #555;
+}
+
+/* Key Problems Solved Section */
+.problems {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.problems h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.problems ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.problems ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Key Metrics Section */
+.metrics {
+    background: #f0f8ff;
+    padding: 50px 0;
+}
+
+.metrics h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.metrics-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.metric-item {
+    text-align: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.metric-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.metric-item p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Reviews Section */
+.reviews {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.reviews h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.review-item {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.review-item p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+.review-item h3 {
+    font-size: 1em;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Features Section */
+.features {
+    background: #f0f8ff;
+    padding: 50px 0;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 1em;
+}
+
+.tab-button:hover {
+    background: #0056b3;
+}
+
+.tab-content {
+    display: none;
+    text-align: center;
+}
+
+.tab-content p {
+    font-size: 1.2em;
+}
+
+/* CTA Section */
+.cta {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cta h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background: #fff;
+    color: #007bff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background: #f0f8ff;
+}
+
+/* Footer Section */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.footer address {
+    font-style: normal;
+    margin-top: 10px;
+}
